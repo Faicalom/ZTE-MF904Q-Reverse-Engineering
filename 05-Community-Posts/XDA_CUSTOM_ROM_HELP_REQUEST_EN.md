@@ -1,0 +1,23 @@
+# [HELP] ZTE MF904Q Android 6 — Modified System Boots, Displays Arabic, Then Powers Off
+
+I am documenting an unresolved persistent-system shutdown on an MF904Q/M19-E, WF904_V6.0, Android6/API23. This is a technical follow-up to the main research thread, not a second announcement. Main-thread placeholder: `[INSERT_VERIFIED_MAIN_THREAD_URL]`. If the forum prefers one topic, I will post this as a reply there instead.
+
+The bootloader unlock is independently verified, including persistence after factory LK restoration. A stock-derived system B was reported stable for two full days. Arabic WebUI and LCD output were demonstrated temporarily. Permanent combined and isolated system variants nevertheless powered off after boot; Arabic LCD appeared in the relevant runs. Some captures recorded Android boot completion. I am not equating an Arabic screen with all services functioning.
+
+The combined image changes only resource TeleService.apk and TLR.db. The WEB_ONLY image changes only TLR.db and retains factory APK/ODEX. Its full629145600-byte system write/readback matched SHA25625481c15fc53ef8755b6a10796146fa8499a785f8a3b52e9d04a41aab90dabdf, yet the owner observed shutdown. LCD_ONLY was built separately from B with only the resource APK changed and factory TLR/ODEX. However, a fully stock runtime ROOT.war/cache state was not proved for the owner-reported LCD_ONLY attempt. I want to retain that confound, not overstate isolation.
+
+The system source is `/system/etc/TLR.db`; runtime WebUI is `/data/media/0/lrserver/webapps/ROOT.war`. Old open JarFile state, extracted cache or OEM copy behavior could mix variants. A clean plan must control those as well as system bytes. Passing ext4 and retaining ODEX do not establish runtime compatibility. The reviewed companion boot has system verify disabled; no new boot/LK/recovery change is proposed.
+
+ADB visibility is affected by OEM `com.lr.usb.openclose` and `setAdbEnabled`. Losing ADB alone is not our shutdown criterion. The owner observed the physical power-off/charging behavior. Internal native capture was confirmed STARTED and recovered later, but ended around30–31seconds uptime without COMPLETE/FAILED. A hardened run had29 BEFORE_SYNC and28 AFTER_SYNC; the final logcat sync began at30.891903 without a recorded completion. No decisive errno/IO_ERROR, panic, watchdog reset, Phone/System Server causal crash or Android shutdown call was captured.
+
+I am looking for evidence-based suggestions on three questions. First, which retained kernel/platform shutdown sources should be examined on this generation when ADB is disabled? Second, what observation would discriminate a blocked final fsync, collector death and abrupt power loss without repeating the same collector design? Third, how would you guarantee a stock ROOT/TLR/cache state for an LCD-only comparison without modifying OEM services or using a format-all shortcut?
+
+Detailed article placeholder: `https://github.com/YOUR_GITHUB_USERNAME/ZTE-MF904Q-Reverse-Engineering/blob/main/03-Research-Results/CUSTOM_ROM_FAILURE_ANALYSIS.md`. This is not yet a live URL. The public package will omit raw firmware/private logs and clearly label observations, measurements and unresolved hypotheses. I do not have evidence to blame power, Jetty or TeleService as the final cause.
+
+
+Current status correction23October2026: The saved19October2026 session confirms a complete B system restore and matching629145600-byte readback (SHA2561e7e386cef9ae14e0e2f62885fe9bbc34dbf15257d1611947a9a99a0adcb15b7). A later23October session confirms a complete restore of the distinct factory system (SHA2569bb23ccc2a0347f0a506ed3a0d2a6784593e8f0a4d4f1d01d79f2d68d56cbe80). The owner clarified on23October that the later factory restoration was prompted by slow Internet, which they subsequently attributed to their Ooredoo connection rather than the modem. This is an owner observation about that slowdown, not a demonstrated cause of the separate Arabic-system power-off. Last saved system image is factory9bb23…, not B; no live device query was made for this publication review.
+
+Release boundary25October2026:50 reviewed tool-source files are included with per-file terms and upstream notices; one assembly source remains withheld. No vendor binary, full LK rebuild or portable executable is claimed. General reuse terms for independent code are not yet selected.
+
+
+Source-review update25October2026: the prior blanket source hold is superseded.50 files are included with scoped attribution/license records, probe_v3.S is withheld, no blanket repository license is chosen, and no vendor firmware/executable or full LK-build claim is made. Posting remains subject to current forum rules and the owner's explicit final approval.

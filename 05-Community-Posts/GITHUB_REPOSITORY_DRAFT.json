@@ -1,0 +1,20 @@
+{
+  "name": "ZTE-MF904Q-Reverse-Engineering",
+  "description": "Evidence-led MF904Q/WF904_V6.0 firmware extraction and persistent LK unlock research; unresolved Arabic-ROM shutdown.",
+  "topics": [
+    "mf904q",
+    "m19-e",
+    "mediatek",
+    "android6",
+    "reverse-engineering",
+    "bootloader",
+    "firmware-analysis"
+  ],
+  "owner": "TO_BE_READ_FROM_AUTHENTICATED_GITHUB_UI",
+  "initial_visibility": "PRIVATE_ONLY_IF_OWNER_APPROVES_CREATION_AND_UPLOAD",
+  "make_public": "SEPARATE_APPROVAL_REQUIRED",
+  "create_repository_approved": false,
+  "upload_approved": false,
+  "open_source_license": "NOT_SELECTED",
+  "historical_source_release": "BLOCKED_PENDING_RIGHTS_DECISION"
+}

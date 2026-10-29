@@ -1,0 +1,7 @@
+# Verified stock and B restoration, with distinct artifacts
+
+Original LK restoration and persistent unlock were verified13October as detailed in the unlock guide. For system images, the stock-derived B control and factory dump are different artifacts, each629145600 bytes.
+
+The saved19October2026 session confirms a complete B system restore and matching629145600-byte readback (SHA2561e7e386cef9ae14e0e2f62885fe9bbc34dbf15257d1611947a9a99a0adcb15b7). A later23October session confirms a complete restore of the distinct factory system (SHA2569bb23ccc2a0347f0a506ed3a0d2a6784593e8f0a4d4f1d01d79f2d68d56cbe80). The owner clarified on23October that the later factory restoration was prompted by slow Internet, which they subsequently attributed to their Ooredoo connection rather than the modem. This is an owner observation about that slowdown, not a demonstrated cause of the separate Arabic-system power-off. Last saved system image is factory9bb23…, not B; no live device query was made for this publication review.
+
+These newly recovered logs supersede the incomplete restore note in the original publication draft. The owner reports normal operation after restoration and previously confirmed two days on B. That observation is separate from the latest known image identity. No fresh ROOT.war/data/cache verification or current functional network test was performed. A successful system readback is not a claim that every runtime state has been restored.

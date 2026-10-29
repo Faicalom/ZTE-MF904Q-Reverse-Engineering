@@ -1,0 +1,25 @@
+# Never accidentally commit device data or local credentials
+*.bin
+*.img
+*.elf
+*.exe
+*.dll
+*.aesgcm
+*.war
+*.apk
+*.odex
+*.zip
+*.partial
+*.checkpoint.json
+__pycache__/
+*.pyc
+venv/
+.env
+*APPROVAL*.json
+*AUTHORIZATION*.json
+*PRIVATE*
+*REFERENCE*.bin
+unlock_sessions/
+lk_private_sessions/
+09_Logs/
+userdata/

@@ -1,0 +1,20 @@
+{
+  "mtkclient": {
+    "upstream": "https://github.com/bkerler/mtkclient",
+    "revision": "cd25cf9c1ff6d36e82697ac2c798e69e9cfb78c3",
+    "license_observed_locally": "GPLv3",
+    "upstream_source_header": "(c) B.Kerler 2018-2025 GPLv3 License",
+    "not_vendored": true,
+    "derived_source_decision": "PENDING_OWNER_REVIEW"
+  },
+  "cryptography": {
+    "version": "50.0.2",
+    "license_metadata": "Apache-2.0 OR BSD-3-Clause",
+    "not_bundled": true
+  },
+  "pyserial": {
+    "version": "3.5",
+    "license_metadata": "BSD",
+    "not_bundled": true
+  }
+}

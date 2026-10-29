@@ -1,0 +1,1131 @@
+{
+  "excludes_self": true,
+  "allowlisted_files": [
+    {
+      "path": ".gitignore",
+      "bytes": 328,
+      "sha256": "3c3f54d77a3d7bb75a7ea99800f5d1248727f5193b38b5efd97adaf732588643",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/BACKUP_VERIFICATION.md",
+      "bytes": 2253,
+      "sha256": "28b400d0904d7442d1a4a6b1113e344659802a7e6b90b01fbd4b2de7f2296844",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/COMPLETE_EXTRACTION_GUIDE.md",
+      "bytes": 16530,
+      "sha256": "127c54d98e325c47ef5550e6bf337085528240dceac98c944767383658b2f649",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/DEPENDENCIES.md",
+      "bytes": 2887,
+      "sha256": "d1b97faa175ea2aba7383c9a1dc598fb74d73d95cea181652bd4c526cb93c448",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/evidence/independent_verification_summary.json",
+      "bytes": 286,
+      "sha256": "9ff01484b9602ac774433c0afad9387c5ef25565066ba5d148a4521a5acec320",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/evidence/partition_layout_public.json",
+      "bytes": 8257,
+      "sha256": "827dba7cb7b736a63de01a8d5453c9944a20be415cf97a3486326df61107e308",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/EXPERIMENT_HISTORY.md",
+      "bytes": 1695,
+      "sha256": "66821c264af20c5ddf1032113f1320c5ea2ac552b286ef89779f60cac5ddb61c",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/images/README.md",
+      "bytes": 627,
+      "sha256": "949177867cd5b59aea995efe95df216e6e66f10e4553edab9d8bdf358f82490d",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/PARTITION_LAYOUT.md",
+      "bytes": 4091,
+      "sha256": "e2b72247b17a3ddec26eca398a5f7860791d4b7041eed3bce2bd3b4003b4ca5e",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/README.md",
+      "bytes": 1222,
+      "sha256": "52eb660b73a61b36ed2339b6bde92e1f022e3ef921fa6f70b7a19a4d62f0b9e9",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/REQUIREMENTS.md",
+      "bytes": 2358,
+      "sha256": "72207539a80ca5e0aa2f0ecb97ef91a7430554393b85b7d1be81babf82bdde77",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/scripts/verify_public_files.py",
+      "bytes": 752,
+      "sha256": "e0bdb8ce065330d2f2a945d710530ac06de4235770574ad5b47f51042ac39c48",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/SHA256SUMS.txt",
+      "bytes": 5592,
+      "sha256": "a2ecb495af5eef6a4fcbe275355fe7dc16bcb27e9bf26c74542e39a48acd28e0",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_STOCK_FIRMWARE_BACKUP/Tools/backup_core.py",
+      "bytes": 8553,
+      "sha256": "4db840a3c5e914949d9d02283c174c2f8fd5a1b153da765d2181fcf788b893ac",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_STOCK_FIRMWARE_BACKUP/Tools/backup_core.py.license",
+      "bytes": 237,
+      "sha256": "ec3b8189fdd7ae11e2fe9700eb41a2eed885d508517bc4a7cd19b54ffde967d3",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_STOCK_FIRMWARE_BACKUP/Tools/inspect_preloader.py",
+      "bytes": 2397,
+      "sha256": "ec838a0231df402dd1d507b80c8bc25107f70ee664e3ad77c67528bed2c0ecfb",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_STOCK_FIRMWARE_BACKUP/Tools/inspect_preloader.py.license",
+      "bytes": 250,
+      "sha256": "799d46fb37d19f5a8afd0adc41192cbd0c540c21913a98156f6ba61a925a2e5d",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_STOCK_FIRMWARE_BACKUP/Tools/open_private_archive.py",
+      "bytes": 3215,
+      "sha256": "595809f8f42229c5c4c2bb92ed5ed5b203bbea022c96e0f5e46c917c1989f68d",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_STOCK_FIRMWARE_BACKUP/Tools/open_private_archive.py.license",
+      "bytes": 250,
+      "sha256": "799d46fb37d19f5a8afd0adc41192cbd0c540c21913a98156f6ba61a925a2e5d",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_STOCK_FIRMWARE_BACKUP/Tools/private_crypto.py",
+      "bytes": 7481,
+      "sha256": "24948502aebbeca48f3a9125203c7ee4ce6d836ead88d7a7917019f3ba319590",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_STOCK_FIRMWARE_BACKUP/Tools/private_crypto.py.license",
+      "bytes": 250,
+      "sha256": "799d46fb37d19f5a8afd0adc41192cbd0c540c21913a98156f6ba61a925a2e5d",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_STOCK_FIRMWARE_BACKUP/Tools/run_stock_backup.py",
+      "bytes": 12917,
+      "sha256": "eab6bbb54a424843252ca120ec5d0a00f55f6e789966553653cfc92556fc2c8d",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_STOCK_FIRMWARE_BACKUP/Tools/run_stock_backup.py.license",
+      "bytes": 237,
+      "sha256": "ec3b8189fdd7ae11e2fe9700eb41a2eed885d508517bc4a7cd19b54ffde967d3",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_STOCK_FIRMWARE_BACKUP/Tools/verify_backup.py",
+      "bytes": 5019,
+      "sha256": "2a72291ad4c0819d1b12c996dd767661577283a88d3d665bac77258d0742dc52",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_STOCK_FIRMWARE_BACKUP/Tools/verify_backup.py.license",
+      "bytes": 250,
+      "sha256": "799d46fb37d19f5a8afd0adc41192cbd0c540c21913a98156f6ba61a925a2e5d",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/audit_legacy_candidates.py",
+      "bytes": 4153,
+      "sha256": "1ab7bc72850b98bb913ffa95603036a53f334fe7970dfd41d65b55a96e557ce7",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/audit_legacy_candidates.py.license",
+      "bytes": 237,
+      "sha256": "ec3b8189fdd7ae11e2fe9700eb41a2eed885d508517bc4a7cd19b54ffde967d3",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/da1_probe_protocol.py",
+      "bytes": 4125,
+      "sha256": "9f584c23f3ba75ea3090c0e03f8b49784ac52630d21c88f0ac5b5fb9aed2fbfd",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/da1_probe_protocol.py.license",
+      "bytes": 237,
+      "sha256": "ec3b8189fdd7ae11e2fe9700eb41a2eed885d508517bc4a7cd19b54ffde967d3",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/da2_probe/da2_protocol.py",
+      "bytes": 7159,
+      "sha256": "6544a0471623c2b0e5a91775dc5ee9f38f0996dd891b1a61556d636da5a87722",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/da2_probe/da2_protocol.py.license",
+      "bytes": 237,
+      "sha256": "ec3b8189fdd7ae11e2fe9700eb41a2eed885d508517bc4a7cd19b54ffde967d3",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/da2_probe/run_da2_probe.py",
+      "bytes": 5579,
+      "sha256": "7e3f8a6620754a967987eb36b44ed6ebc8ebec6c1c8b2cda9530b6970e59d2e6",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/da2_probe/run_da2_probe.py.license",
+      "bytes": 237,
+      "sha256": "ec3b8189fdd7ae11e2fe9700eb41a2eed885d508517bc4a7cd19b54ffde967d3",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/identity_queries.py",
+      "bytes": 2277,
+      "sha256": "aee55eb65702d09a4b203aa7b1017b31fd0af04663a1510b271cfccdd69ad2fb",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/identity_queries.py.license",
+      "bytes": 237,
+      "sha256": "ec3b8189fdd7ae11e2fe9700eb41a2eed885d508517bc4a7cd19b54ffde967d3",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/protocol.py",
+      "bytes": 4815,
+      "sha256": "6c4cc5dcf3426c0ad2aa716ab611a5d86bba7ce15f486f6769f7539fbd0ec42b",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/protocol.py.license",
+      "bytes": 237,
+      "sha256": "ec3b8189fdd7ae11e2fe9700eb41a2eed885d508517bc4a7cd19b54ffde967d3",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/readiness_protocol.py",
+      "bytes": 3336,
+      "sha256": "c9d4a559e39d108956dd9d6d34a72bdef3eea1143319138bd1b146e0883cad25",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/readiness_protocol.py.license",
+      "bytes": 237,
+      "sha256": "ec3b8189fdd7ae11e2fe9700eb41a2eed885d508517bc4a7cd19b54ffde967d3",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/run_da1_probe.py",
+      "bytes": 5713,
+      "sha256": "d7da6a7739f7d08b13c8a9b5d6a061d373615afcc41290242f6571d1369fa20a",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/run_da1_probe.py.license",
+      "bytes": 237,
+      "sha256": "ec3b8189fdd7ae11e2fe9700eb41a2eed885d508517bc4a7cd19b54ffde967d3",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/stage2_probe/run_stage2_requirements.py",
+      "bytes": 5106,
+      "sha256": "05fa50066dd652c86297c7dd5420249472074b782afd0cdc7e8b3bc3a7ec1617",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/stage2_probe/run_stage2_requirements.py.license",
+      "bytes": 237,
+      "sha256": "ec3b8189fdd7ae11e2fe9700eb41a2eed885d508517bc4a7cd19b54ffde967d3",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/stage2_probe/stage2_protocol.py",
+      "bytes": 3033,
+      "sha256": "6fbf00195c16a506d156818b22ee1baabbd07dcbe5ec1f38629662223b693299",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/stage2_probe/stage2_protocol.py.license",
+      "bytes": 237,
+      "sha256": "ec3b8189fdd7ae11e2fe9700eb41a2eed885d508517bc4a7cd19b54ffde967d3",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/wait_preloader.py",
+      "bytes": 18411,
+      "sha256": "2d9b877a705c618973b924c03756dfe216207b0ff465e8946f13803ac361122f",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/wait_preloader.py.license",
+      "bytes": 237,
+      "sha256": "ec3b8189fdd7ae11e2fe9700eb41a2eed885d508517bc4a7cd19b54ffde967d3",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/windows_usb.py",
+      "bytes": 1607,
+      "sha256": "7c25cae4f56c7a9add06cfb03ee6ee9f80c781a48c3311d54531518cb43a2705",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/windows_usb.py.license",
+      "bytes": 250,
+      "sha256": "799d46fb37d19f5a8afd0adc41192cbd0c540c21913a98156f6ba61a925a2e5d",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/src/README.md",
+      "bytes": 456,
+      "sha256": "8f7a45955ee95567d2e4c2726a54d48e54c0354c45dd837958955066fa430b7e",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/TOOL_USAGE.md",
+      "bytes": 2847,
+      "sha256": "bd8c3c32cf3026222f02cd422668973a52ac005c2ed28bbda0b9623359e4a90b",
+      "upload_authorized": false
+    },
+    {
+      "path": "01-Firmware-Extraction/TROUBLESHOOTING.md",
+      "bytes": 1513,
+      "sha256": "6a2c17afd0e931c0d3af6c6f862671dbd641cd44609c8d58cb7e61457665a827",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/BOOTLOADER_TECHNICAL_ANALYSIS.md",
+      "bytes": 4080,
+      "sha256": "28f21667d9155f44c116f159513d4c0b12f9dcc1387d1e3253597140ac8e4533",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/COMPLETE_UNLOCK_GUIDE.md",
+      "bytes": 25355,
+      "sha256": "25816c1ce808e952f4d602b212accab98cac0c1ff40e0cd351f6dd32ffa43ecf",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/DEPENDENCIES.md",
+      "bytes": 2887,
+      "sha256": "d1b97faa175ea2aba7383c9a1dc598fb74d73d95cea181652bd4c526cb93c448",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/evidence/after_stderr.txt",
+      "bytes": 46,
+      "sha256": "bdc04c537925b666e13978d6d4a5fe2950bd832ae57221823e4e3769d4cd9ec6",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/evidence/before_stderr.txt",
+      "bytes": 45,
+      "sha256": "6a4dee0edbb69e1e97be8349c7ec083f00d62247018e50e3001fa12756b0fba9",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/evidence/capture_status.json",
+      "bytes": 301,
+      "sha256": "1db79c371ca09631761b28921049c482cc26cc947c77fdda9dcd8829095ff6d8",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/evidence/factory_lk_unlocked.txt",
+      "bytes": 46,
+      "sha256": "b0bfa95fb6c8f50615403a228e67d4131898b4185675d27d28a56103c4de0a04",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/evidence/gate_diagnostic.txt",
+      "bytes": 804,
+      "sha256": "f3d4ef9113ada7e0ba194641e8323be4fa02f0bdff43b030dbcacc2433b075f1",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/evidence/unlock_stderr.txt",
+      "bytes": 662,
+      "sha256": "754ec9dd0355cc4d399c2f94f91fbdacfa4957772045f759870c23a520b6f894",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/EXPERIMENT_HISTORY.md",
+      "bytes": 2594,
+      "sha256": "ab0de734e55d4b01f4aacaff9365b5e2efb09850062b80e74984af748cc9cf84",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/images/README.md",
+      "bytes": 627,
+      "sha256": "949177867cd5b59aea995efe95df216e6e66f10e4553edab9d8bdf358f82490d",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/PRE_UNLOCK_ANDROID_AND_FASTBOOT.md",
+      "bytes": 12825,
+      "sha256": "afe45a8efb60b18af112dcf23285e008f753fc67cf4225475d86166f3a82e0b1",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/README.md",
+      "bytes": 1533,
+      "sha256": "6906d81a8f08e8017917763378e17aaa3fc34562380e913921e03ad9d2cab3cb",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/RECOVERY_AND_ROLLBACK.md",
+      "bytes": 2273,
+      "sha256": "9f52232f2c95d45cde9cecad9b179dd9fa4e2e15eb892221ac69c376a70f96d2",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/REQUIREMENTS.md",
+      "bytes": 2377,
+      "sha256": "89aaa4319424193d9cd8babdc78a2413dcf5021f9340c279fabef616ced8086c",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/scripts/check_saved_unlock.py",
+      "bytes": 1550,
+      "sha256": "6507f0ed175c46ef22035ca7a129a68ef35f9ed4dfca661d7c55f6bab10ff27e",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/SHA256SUMS.txt",
+      "bytes": 9917,
+      "sha256": "daf45d713cd0150cc32afe50b062006e3b9ddc562ba75e9ef2ceadc1a7a16713",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_DA_HANDSHAKE_FIX_20261012/backup_core.py",
+      "bytes": 8553,
+      "sha256": "4db840a3c5e914949d9d02283c174c2f8fd5a1b153da765d2181fcf788b893ac",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_DA_HANDSHAKE_FIX_20261012/backup_core.py.license",
+      "bytes": 237,
+      "sha256": "ec3b8189fdd7ae11e2fe9700eb41a2eed885d508517bc4a7cd19b54ffde967d3",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_DA_HANDSHAKE_FIX_20261012/compare_private.py",
+      "bytes": 2343,
+      "sha256": "901158c0bfd865ce0d09f8901bebeb2995c37479977f159237ad799b4a560944",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_DA_HANDSHAKE_FIX_20261012/compare_private.py.license",
+      "bytes": 250,
+      "sha256": "799d46fb37d19f5a8afd0adc41192cbd0c540c21913a98156f6ba61a925a2e5d",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_DA_HANDSHAKE_FIX_20261012/da1_probe_protocol.py",
+      "bytes": 4125,
+      "sha256": "9f584c23f3ba75ea3090c0e03f8b49784ac52630d21c88f0ac5b5fb9aed2fbfd",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_DA_HANDSHAKE_FIX_20261012/da1_probe_protocol.py.license",
+      "bytes": 237,
+      "sha256": "ec3b8189fdd7ae11e2fe9700eb41a2eed885d508517bc4a7cd19b54ffde967d3",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_DA_HANDSHAKE_FIX_20261012/da2_protocol.py",
+      "bytes": 7159,
+      "sha256": "6544a0471623c2b0e5a91775dc5ee9f38f0996dd891b1a61556d636da5a87722",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_DA_HANDSHAKE_FIX_20261012/da2_protocol.py.license",
+      "bytes": 237,
+      "sha256": "ec3b8189fdd7ae11e2fe9700eb41a2eed885d508517bc4a7cd19b54ffde967d3",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_DA_HANDSHAKE_FIX_20261012/identity_queries.py",
+      "bytes": 2277,
+      "sha256": "aee55eb65702d09a4b203aa7b1017b31fd0af04663a1510b271cfccdd69ad2fb",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_DA_HANDSHAKE_FIX_20261012/identity_queries.py.license",
+      "bytes": 237,
+      "sha256": "ec3b8189fdd7ae11e2fe9700eb41a2eed885d508517bc4a7cd19b54ffde967d3",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_DA_HANDSHAKE_FIX_20261012/limited_da.py",
+      "bytes": 14054,
+      "sha256": "34bc34ef40ac716ec578174f0ad833a6927eeaa032753ce477bf2bc3336b5855",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_DA_HANDSHAKE_FIX_20261012/limited_da.py.license",
+      "bytes": 237,
+      "sha256": "ec3b8189fdd7ae11e2fe9700eb41a2eed885d508517bc4a7cd19b54ffde967d3",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_DA_HANDSHAKE_FIX_20261012/policy.py",
+      "bytes": 5575,
+      "sha256": "ca180e55ee78a5f783c8e11fc022df05d812629c72b505facc375f9646c7c814",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_DA_HANDSHAKE_FIX_20261012/policy.py.license",
+      "bytes": 237,
+      "sha256": "ec3b8189fdd7ae11e2fe9700eb41a2eed885d508517bc4a7cd19b54ffde967d3",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_DA_HANDSHAKE_FIX_20261012/protocol.py",
+      "bytes": 4815,
+      "sha256": "6c4cc5dcf3426c0ad2aa716ab611a5d86bba7ce15f486f6769f7539fbd0ec42b",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_DA_HANDSHAKE_FIX_20261012/protocol.py.license",
+      "bytes": 237,
+      "sha256": "ec3b8189fdd7ae11e2fe9700eb41a2eed885d508517bc4a7cd19b54ffde967d3",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_DA_HANDSHAKE_FIX_20261012/readiness_protocol.py",
+      "bytes": 3336,
+      "sha256": "c9d4a559e39d108956dd9d6d34a72bdef3eea1143319138bd1b146e0883cad25",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_DA_HANDSHAKE_FIX_20261012/readiness_protocol.py.license",
+      "bytes": 237,
+      "sha256": "ec3b8189fdd7ae11e2fe9700eb41a2eed885d508517bc4a7cd19b54ffde967d3",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_DA_HANDSHAKE_FIX_20261012/stage2_protocol.py",
+      "bytes": 3033,
+      "sha256": "6fbf00195c16a506d156818b22ee1baabbd07dcbe5ec1f38629662223b693299",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_DA_HANDSHAKE_FIX_20261012/stage2_protocol.py.license",
+      "bytes": 237,
+      "sha256": "ec3b8189fdd7ae11e2fe9700eb41a2eed885d508517bc4a7cd19b54ffde967d3",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_DA_HANDSHAKE_FIX_20261012/usb_metadata.py",
+      "bytes": 2229,
+      "sha256": "12ba438b0ad9a68176e2d845ec2f817f0e8f5bd6b0173b2c095033dd0b6072c5",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_DA_HANDSHAKE_FIX_20261012/usb_metadata.py.license",
+      "bytes": 250,
+      "sha256": "799d46fb37d19f5a8afd0adc41192cbd0c540c21913a98156f6ba61a925a2e5d",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_DETACHED_FROMDEBUG_PREP_20261011/MarkerCore.cs",
+      "bytes": 9085,
+      "sha256": "5bfe09780744fded359828e5a10b9e9fb537dd14980f132dda0414c91df98cce",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_DETACHED_FROMDEBUG_PREP_20261011/MarkerCore.cs.license",
+      "bytes": 250,
+      "sha256": "799d46fb37d19f5a8afd0adc41192cbd0c540c21913a98156f6ba61a925a2e5d",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_DETACHED_FROMDEBUG_PREP_20261011/ObserverCore.cs",
+      "bytes": 12240,
+      "sha256": "52cbe575486d2d1155c599f440ab41c02bb029ab1bacb17209073f7905adf7d9",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_DETACHED_FROMDEBUG_PREP_20261011/ObserverCore.cs.license",
+      "bytes": 250,
+      "sha256": "799d46fb37d19f5a8afd0adc41192cbd0c540c21913a98156f6ba61a925a2e5d",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_DETACHED_FROMDEBUG_PREP_20261011/Program.cs",
+      "bytes": 15246,
+      "sha256": "d3150a2340582e5ec8563b35078c4c886950304bcb3ff7cadd24c254211bcef6",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_DETACHED_FROMDEBUG_PREP_20261011/Program.cs.license",
+      "bytes": 250,
+      "sha256": "799d46fb37d19f5a8afd0adc41192cbd0c540c21913a98156f6ba61a925a2e5d",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_GATE_CONTEXT_PREP_20261012/BUILD_MANIFEST.json",
+      "bytes": 4786,
+      "sha256": "0753e4aada0f18b23d1e7e3e12f590b10065cc59d88e0bc841a6cab46576535b",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_GATE_CONTEXT_PREP_20261012/BUILD_MANIFEST.json.license",
+      "bytes": 252,
+      "sha256": "c55a3467abb99d83a0736e346aadc0bee358ca9d37ae713797c80904ad38b31f",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_GATE_CONTEXT_PREP_20261012/build_v3.py",
+      "bytes": 3021,
+      "sha256": "565a67b59893521eb6cec115def58d48121316dfac7b3988d23fe9f9c3ec2e2c",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_GATE_CONTEXT_PREP_20261012/build_v3.py.license",
+      "bytes": 250,
+      "sha256": "799d46fb37d19f5a8afd0adc41192cbd0c540c21913a98156f6ba61a925a2e5d",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_GATE_CONTEXT_PREP_20261012/capture.py",
+      "bytes": 2302,
+      "sha256": "729c9da8f85e15e7bb321b6c1a7cf6a65f5f55479e07e05474b288c726d61b9c",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_GATE_CONTEXT_PREP_20261012/capture.py.license",
+      "bytes": 250,
+      "sha256": "799d46fb37d19f5a8afd0adc41192cbd0c540c21913a98156f6ba61a925a2e5d",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_GATE_CONTEXT_PREP_20261012/final_unlock_v3.py",
+      "bytes": 6441,
+      "sha256": "8ab919ca59c0f0a5397939a156d0e9494ea15d5e76ec0fc3c8f3d9aa4a96116d",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_GATE_CONTEXT_PREP_20261012/final_unlock_v3.py.license",
+      "bytes": 250,
+      "sha256": "799d46fb37d19f5a8afd0adc41192cbd0c540c21913a98156f6ba61a925a2e5d",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_GATE_CONTEXT_PREP_20261012/lk_da_session.py",
+      "bytes": 9398,
+      "sha256": "bacae4577ab6d36804f9e29299934dc18dc0becfa66de14340ba3f067d72cf0c",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_GATE_CONTEXT_PREP_20261012/lk_da_session.py.license",
+      "bytes": 237,
+      "sha256": "ec3b8189fdd7ae11e2fe9700eb41a2eed885d508517bc4a7cd19b54ffde967d3",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_GATE_CONTEXT_PREP_20261012/lk_install_policy.py",
+      "bytes": 4500,
+      "sha256": "33887bc1d761f55f9a0699a92dd8e6255660c472ed3c809e198719b7288f71e6",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_GATE_CONTEXT_PREP_20261012/lk_install_policy.py.license",
+      "bytes": 237,
+      "sha256": "ec3b8189fdd7ae11e2fe9700eb41a2eed885d508517bc4a7cd19b54ffde967d3",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_GATE_CONTEXT_PREP_20261012/lk_probe_entry.py",
+      "bytes": 9955,
+      "sha256": "dff98bd4b1c7291a5f9fc52520e144c40a22309bd2feea947882e838531fde73",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_GATE_CONTEXT_PREP_20261012/lk_probe_entry.py.license",
+      "bytes": 250,
+      "sha256": "799d46fb37d19f5a8afd0adc41192cbd0c540c21913a98156f6ba61a925a2e5d",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_GATE_CONTEXT_PREP_20261012/probe_v3.ld",
+      "bytes": 1136,
+      "sha256": "de365994bf0ea14fbabb1880fe75664e3adfa226034e2429361af5d23036c050",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_GATE_CONTEXT_PREP_20261012/probe_v3.ld.license",
+      "bytes": 250,
+      "sha256": "799d46fb37d19f5a8afd0adc41192cbd0c540c21913a98156f6ba61a925a2e5d",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_GATE_CONTEXT_PREP_20261012/response_gate_context.py",
+      "bytes": 1823,
+      "sha256": "5875db189b117a5ea6a46d930a24511651b316486e59378c89896b7ecbd8fb6f",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_GATE_CONTEXT_PREP_20261012/response_gate_context.py.license",
+      "bytes": 250,
+      "sha256": "799d46fb37d19f5a8afd0adc41192cbd0c540c21913a98156f6ba61a925a2e5d",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_GATE_CONTEXT_PREP_20261012/response_v3.py",
+      "bytes": 1823,
+      "sha256": "5875db189b117a5ea6a46d930a24511651b316486e59378c89896b7ecbd8fb6f",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_GATE_CONTEXT_PREP_20261012/response_v3.py.license",
+      "bytes": 250,
+      "sha256": "799d46fb37d19f5a8afd0adc41192cbd0c540c21913a98156f6ba61a925a2e5d",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_OEM_SETTER6_CONTROLLED_PREP_20261011/Controlled.cs",
+      "bytes": 8152,
+      "sha256": "0bf829a8c930f3af3ed88beebdea969e392ed76ac8ba35d93c3edaa4d7749ab4",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_OEM_SETTER6_CONTROLLED_PREP_20261011/Controlled.cs.license",
+      "bytes": 250,
+      "sha256": "799d46fb37d19f5a8afd0adc41192cbd0c540c21913a98156f6ba61a925a2e5d",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_OEM_SETTER6_CONTROLLED_PREP_20261011/IdentitySupport.cs",
+      "bytes": 8897,
+      "sha256": "a13c2a325985dc7289faab8e57cf00f0d7cfb3d5d958f77ab7bfb0a45d879d41",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_OEM_SETTER6_CONTROLLED_PREP_20261011/IdentitySupport.cs.license",
+      "bytes": 250,
+      "sha256": "799d46fb37d19f5a8afd0adc41192cbd0c540c21913a98156f6ba61a925a2e5d",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_OEM_SETTER6_CONTROLLED_PREP_20261011/ProtocolIdentity.cs",
+      "bytes": 5475,
+      "sha256": "8d10ae9d649843d949a9c468073979396ab6d53345116db515517b380973880d",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_OEM_SETTER6_CONTROLLED_PREP_20261011/ProtocolIdentity.cs.license",
+      "bytes": 250,
+      "sha256": "799d46fb37d19f5a8afd0adc41192cbd0c540c21913a98156f6ba61a925a2e5d",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_OEM_SETTER6_CONTROLLED_PREP_20261011/RestrictedLogs.cs",
+      "bytes": 3194,
+      "sha256": "cb27a2910bebd3d3107de907e3d75a531527bfe2e5e397c1582f13bd43ee04dd",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_OEM_SETTER6_CONTROLLED_PREP_20261011/RestrictedLogs.cs.license",
+      "bytes": 250,
+      "sha256": "799d46fb37d19f5a8afd0adc41192cbd0c540c21913a98156f6ba61a925a2e5d",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_THIRD_UNLOCK_PREP_20261012/core.py",
+      "bytes": 2822,
+      "sha256": "bc9312998f42c920a1d33a0ce0cc202810b4c182a8f07678817328e6a866b218",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_THIRD_UNLOCK_PREP_20261012/core.py.license",
+      "bytes": 250,
+      "sha256": "799d46fb37d19f5a8afd0adc41192cbd0c540c21913a98156f6ba61a925a2e5d",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_THIRD_UNLOCK_PREP_20261012/entry.py",
+      "bytes": 7313,
+      "sha256": "d2553499210c3b438073523e16d94472f03b8e5c40bc125932d4c55cf99c654c",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_THIRD_UNLOCK_PREP_20261012/entry.py.license",
+      "bytes": 250,
+      "sha256": "799d46fb37d19f5a8afd0adc41192cbd0c540c21913a98156f6ba61a925a2e5d",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_THIRD_UNLOCK_PREP_20261012/entry_protocol.py",
+      "bytes": 2929,
+      "sha256": "55099c9336a4901592561d255530af72663db4de6798318bc164f66e966a85f6",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_THIRD_UNLOCK_PREP_20261012/entry_protocol.py.license",
+      "bytes": 250,
+      "sha256": "799d46fb37d19f5a8afd0adc41192cbd0c540c21913a98156f6ba61a925a2e5d",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_THIRD_UNLOCK_PREP_20261012/usb_metadata.py",
+      "bytes": 2229,
+      "sha256": "12ba438b0ad9a68176e2d845ec2f817f0e8f5bd6b0173b2c095033dd0b6072c5",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/MF904Q_THIRD_UNLOCK_PREP_20261012/usb_metadata.py.license",
+      "bytes": 250,
+      "sha256": "799d46fb37d19f5a8afd0adc41192cbd0c540c21913a98156f6ba61a925a2e5d",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/src/README.md",
+      "bytes": 456,
+      "sha256": "8f7a45955ee95567d2e4c2726a54d48e54c0354c45dd837958955066fa430b7e",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/SUCCESS_VERIFICATION.md",
+      "bytes": 1689,
+      "sha256": "32c849105cc700d1bad5aaf30f4faca3d65676d4b270d884daa73faca24e4941",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/TOOL_USAGE.md",
+      "bytes": 3750,
+      "sha256": "503b35189e97157e5610fb3e70713fcb3e10e84761d58fc7be28024362ed9aff",
+      "upload_authorized": false
+    },
+    {
+      "path": "02-Bootloader-Unlock/TROUBLESHOOTING.md",
+      "bytes": 1431,
+      "sha256": "f9654f6e11619679d06d349a2a9bc08b808d79cb5359a3fd343c83c8c969feb9",
+      "upload_authorized": false
+    },
+    {
+      "path": "03-Research-Results/ARABIC_WEB_LCD_RESULTS.md",
+      "bytes": 1467,
+      "sha256": "360bd4405632136f7c63abafca71d14d602cc0b98ea1bcc328325f3fa1539725",
+      "upload_authorized": false
+    },
+    {
+      "path": "03-Research-Results/BOOTLOADER_UNLOCK_SUCCESS.md",
+      "bytes": 888,
+      "sha256": "f345c98ae207ffa52cb4ec8f4c08885156781c41c7a41f363f35cae4dff8ef1e",
+      "upload_authorized": false
+    },
+    {
+      "path": "03-Research-Results/CONFIRMED_FINDINGS.md",
+      "bytes": 1320,
+      "sha256": "ad622b83af894402adbb9ce03bb69b18dbb81852554c545b9ef82b84d168edaf",
+      "upload_authorized": false
+    },
+    {
+      "path": "03-Research-Results/CUSTOM_ROM_FAILURE_ANALYSIS.md",
+      "bytes": 5614,
+      "sha256": "a4bfc87d4f379a726a765a26c9696389a2d7f18dc55cf70e2ea242991590c3a8",
+      "upload_authorized": false
+    },
+    {
+      "path": "03-Research-Results/FULL_FIRMWARE_DUMP_SUCCESS.md",
+      "bytes": 772,
+      "sha256": "7df89659babe7ac785f4d8a9e7bdbab65e5b78f7f3dd09649583c90f642f525c",
+      "upload_authorized": false
+    },
+    {
+      "path": "03-Research-Results/OPEN_TECHNICAL_QUESTIONS.md",
+      "bytes": 1343,
+      "sha256": "5ba4d0866c729e8adb81619763cb2f3a6415f7bee87406a3582b40bf6ac01106",
+      "upload_authorized": false
+    },
+    {
+      "path": "03-Research-Results/STOCK_ROM_RESTORE_SUCCESS.md",
+      "bytes": 1468,
+      "sha256": "5e55f2d76ce2912209505b74a67e1a64f38a9b955ac179ae91fe4edb4a7f3017",
+      "upload_authorized": false
+    },
+    {
+      "path": "04-Device-Photos/pcb_component_detail.jpg",
+      "bytes": 616568,
+      "sha256": "4431a5d79a606ee7b56bfbf7fa67298db928eac26c76ba55c9cf213886cf23ce",
+      "upload_authorized": false
+    },
+    {
+      "path": "04-Device-Photos/README.md",
+      "bytes": 1500,
+      "sha256": "ea7b007d94697b86aa1a35eeab0031e778c7f62eedc629602adb6df4460fb596",
+      "upload_authorized": false
+    },
+    {
+      "path": "05-Community-Posts/4PDA_PROJECT_PRESENTATION_EN.md",
+      "bytes": 3839,
+      "sha256": "49d103c51df001b023ee65dd1a128630062236b043598bfcfff3292085cf37aa",
+      "upload_authorized": false
+    },
+    {
+      "path": "05-Community-Posts/4PDA_PROJECT_PRESENTATION_RU.md",
+      "bytes": 3278,
+      "sha256": "ad56021d41e51b8e97e692c52c67c9ee901b560477cc2c43b02fc1a1b0512b25",
+      "upload_authorized": false
+    },
+    {
+      "path": "05-Community-Posts/GITHUB_DISCUSSION_EN.md",
+      "bytes": 3460,
+      "sha256": "6d60ca696245b5b54edcd60898430a8aebe05e7bebde942d5fb5fe0ed057dcce",
+      "upload_authorized": false
+    },
+    {
+      "path": "05-Community-Posts/GITHUB_REPOSITORY_DRAFT.json",
+      "bytes": 705,
+      "sha256": "134e9ca279369d00869fe534fb2c17d388fa6e405dd8ed84f87908fe87534c3c",
+      "upload_authorized": false
+    },
+    {
+      "path": "05-Community-Posts/PLATFORM_READINESS.json",
+      "bytes": 2045,
+      "sha256": "12409bf4e34155cefb39c02c237088552bd1109f283961d1cfa163dfbe1f0c30",
+      "upload_authorized": false
+    },
+    {
+      "path": "05-Community-Posts/PUBLICATION_LOCATIONS_AND_STEPS_AR.md",
+      "bytes": 8300,
+      "sha256": "b56f6bc4514ac37d8155b84c1e7525611c78d4c1dcac49e6f689b9ca2daa9b1f",
+      "upload_authorized": false
+    },
+    {
+      "path": "05-Community-Posts/REDDIT_HARDWAREHACKING_EN.md",
+      "bytes": 4735,
+      "sha256": "ce23029b2cdc097cb8097b5c51c0ecd3f03cc711dee114ee14c891eb78005236",
+      "upload_authorized": false
+    },
+    {
+      "path": "05-Community-Posts/REDDIT_REVERSEENGINEERING_EN.md",
+      "bytes": 3478,
+      "sha256": "49cbcf1104fd98c4ef75ce7c94db6d26acd1532b898b2e152b5db7595b0e5280",
+      "upload_authorized": false
+    },
+    {
+      "path": "05-Community-Posts/XDA_CUSTOM_ROM_HELP_REQUEST_EN.md",
+      "bytes": 4760,
+      "sha256": "6c794d340dde72c30bae55ff9f44e253aaf4a2e245f5bc8d63e2b68eabb9083e",
+      "upload_authorized": false
+    },
+    {
+      "path": "05-Community-Posts/XDA_FULL_PROJECT_THREAD_EN.md",
+      "bytes": 8607,
+      "sha256": "ba6e1570abd45c7b310e045d6b06920e892b1dd06593c8c2b2f9e8dc52eac5fa",
+      "upload_authorized": false
+    },
+    {
+      "path": "06-Releases/BOOTLOADER_UNLOCK_RELEASE_NOTES.md",
+      "bytes": 1093,
+      "sha256": "d6c4fb213d8690b5ac70b6439fedd445f3284fb9e2b8f71189ca424dd1602af2",
+      "upload_authorized": false
+    },
+    {
+      "path": "06-Releases/FIRMWARE_EXTRACTION_RELEASE_NOTES.md",
+      "bytes": 1095,
+      "sha256": "0bb60e9a6adb96c9ad291b894561d6d637b67ba070a85950084ecdf7762e05ef",
+      "upload_authorized": false
+    },
+    {
+      "path": "07-Publication-Verification/ARCHIVE_RUNTIME_EVIDENCE.json",
+      "bytes": 320,
+      "sha256": "7c3a84492f4765eee8165119c3e6761bed79456a636e22c4b09af32658bc5e16",
+      "upload_authorized": false
+    },
+    {
+      "path": "07-Publication-Verification/F_SOURCE_CROSSCHECK.json",
+      "bytes": 194,
+      "sha256": "1a4d545ffcd5e2f0e69bdb4945c6f9f711da27782eb2c98c567528da8e822664",
+      "upload_authorized": false
+    },
+    {
+      "path": "07-Publication-Verification/FILE_BY_FILE_RIGHTS_REVIEW.json",
+      "bytes": 107403,
+      "sha256": "99467bd2d4d21b1937231034fcc052c50dfbb0d4c9fb4146d176b8e915e1b39b",
+      "upload_authorized": false
+    },
+    {
+      "path": "07-Publication-Verification/FILE_BY_FILE_RIGHTS_REVIEW.md",
+      "bytes": 33897,
+      "sha256": "fd33909e75627ca8ecddba34a58db1b08f25c41a48c9167fc488013140d2eb1e",
+      "upload_authorized": false
+    },
+    {
+      "path": "07-Publication-Verification/FINAL_PUBLICATION_READINESS_AR.md",
+      "bytes": 3693,
+      "sha256": "5b9c788447c4015f5282d5d5d1fb00c967980a182847f9da0cd1af9fd61ae681",
+      "upload_authorized": false
+    },
+    {
+      "path": "07-Publication-Verification/FINAL_PUBLICATION_SECURITY_AUDIT_AR.md",
+      "bytes": 3693,
+      "sha256": "5b9c788447c4015f5282d5d5d1fb00c967980a182847f9da0cd1af9fd61ae681",
+      "upload_authorized": false
+    },
+    {
+      "path": "07-Publication-Verification/HISTORICAL_TOOL_CATALOG.json",
+      "bytes": 4996,
+      "sha256": "1e6a9935afc291d258bed0d93b8fef09c661c341ac308accf74fb91c0113e13c",
+      "upload_authorized": false
+    },
+    {
+      "path": "07-Publication-Verification/PHOTO_DERIVATION.json",
+      "bytes": 404,
+      "sha256": "f0a4958806083331d9da748f593be55ee8f5172a59181a91f9010a3769071160",
+      "upload_authorized": false
+    },
+    {
+      "path": "07-Publication-Verification/PRIVACY_AUDIT.md",
+      "bytes": 1642,
+      "sha256": "6aa535cf93d0e69feeab72f78f5a627a427f1172e7d6684603adbd956db92ec7",
+      "upload_authorized": false
+    },
+    {
+      "path": "07-Publication-Verification/PUBLICATION_STATE.json",
+      "bytes": 334,
+      "sha256": "3a74384829b6bdfa30967379c55db6128e2954356be22c085232c8c4571e17d2",
+      "upload_authorized": false
+    },
+    {
+      "path": "07-Publication-Verification/SAVED_RESTORE_EVIDENCE_20261023.json",
+      "bytes": 998,
+      "sha256": "da1945eeaf0389a4216ff60647786ef747a0127a44d91b9ce6a2f24eaa3b6ffb",
+      "upload_authorized": false
+    },
+    {
+      "path": "07-Publication-Verification/SOURCE_PROVENANCE.json",
+      "bytes": 95738,
+      "sha256": "083045ca344149994af95dad83aeea8cdcf0939977fbbe464065ea32191b98e6",
+      "upload_authorized": false
+    },
+    {
+      "path": "07-Publication-Verification/SOURCE_PUBLICATION_MAP.json",
+      "bytes": 95722,
+      "sha256": "3d9f206b0b59c5d4660cc1df3cb3e096603e09241d0315d93228ec4556177294",
+      "upload_authorized": false
+    },
+    {
+      "path": "07-Publication-Verification/STATIC_DEPENDENCY_INVENTORY.json",
+      "bytes": 10237,
+      "sha256": "28bd5a5e9251ef9367179827510b55d3659b26bf41d298ce4a758d7d98524b4f",
+      "upload_authorized": false
+    },
+    {
+      "path": "07-Publication-Verification/TECHNICAL_ACCURACY_AUDIT.md",
+      "bytes": 1573,
+      "sha256": "8d685457d36dfbb0c0a01058ada5469935481be53717fb0150a93e3676fe1aa9",
+      "upload_authorized": false
+    },
+    {
+      "path": "07-Publication-Verification/WINNING_BINARY_REFERENCE_CHECK.json",
+      "bytes": 186,
+      "sha256": "ef4d39653c0957b34e9dc3590aecc65fcf0a02281e956c58a295ecc3ba12c81f",
+      "upload_authorized": false
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 957,
+      "sha256": "7277943f158514c039aa76e7f822af393a98f0f078e87d81b699c6b138cb0a2c",
+      "upload_authorized": false
+    },
+    {
+      "path": "CURRENT_BASELINE_20261023.md",
+      "bytes": 1113,
+      "sha256": "200414d1bfbcba900fa28d6419f4c11adede807443940f54ff116039f93fce30",
+      "upload_authorized": false
+    },
+    {
+      "path": "DEVICE_SPECIFICATIONS.md",
+      "bytes": 1552,
+      "sha256": "0a889c80ba0ca07580c418cdfaa9e7b05b8f294c2597056d0b1f86fbb16f79e1",
+      "upload_authorized": false
+    },
+    {
+      "path": "LICENSE_REVIEW.md",
+      "bytes": 2211,
+      "sha256": "f7bf08a8598e20c08eecdc539fed718507676b5b28c94c2c09d4ac5c026b907a",
+      "upload_authorized": false
+    },
+    {
+      "path": "LICENSES/GPL-3.0-only.txt",
+      "bytes": 35809,
+      "sha256": "9668bff5e9de336d2da1ddbcace669bf822e3d6e66593dc8073046af8b4eca7f",
+      "upload_authorized": false
+    },
+    {
+      "path": "PRIVATE_NOT_INCLUDED.md",
+      "bytes": 1187,
+      "sha256": "f2311e5e58e273d33480e75899a94917fe09ca10f8d8ea3ff3b6627537e21ab0",
+      "upload_authorized": false
+    },
+    {
+      "path": "PROJECT_STATUS.md",
+      "bytes": 1514,
+      "sha256": "6de2b111958be9069bd11e5a15447837b6a35e1e3809784eb404edb62e3ba8a8",
+      "upload_authorized": false
+    },
+    {
+      "path": "README.md",
+      "bytes": 3155,
+      "sha256": "01e3635d6ae64fa82a02e3756c69c9d26880eaf5972b3e5f0b039344a25cdd1f",
+      "upload_authorized": false
+    },
+    {
+      "path": "RIGHTS_AND_RUNTIME_LIMITATIONS.md",
+      "bytes": 1663,
+      "sha256": "89dd4dd0e9b3626c13fbf880eb07a5a37f640e57ecc2f231146ac665024fe9a0",
+      "upload_authorized": false
+    },
+    {
+      "path": "SECURITY_AND_SAFETY.md",
+      "bytes": 1855,
+      "sha256": "9bccda59e697387bc966eaa2d71b22870cf9adaf282568582fdd4763270b72f5",
+      "upload_authorized": false
+    },
+    {
+      "path": "SUPERVISED_WORKFLOW_AR.md",
+      "bytes": 1654,
+      "sha256": "33ca4a5cea99f55711bd1b1825e202502697d91bf5d9f82e209ca62fd647983f",
+      "upload_authorized": false
+    },
+    {
+      "path": "THIRD_PARTY_COMPONENTS.json",
+      "bytes": 578,
+      "sha256": "917b9a79b7a38e02c04161f47705a6c109e876f5aa41e9e45ea9efa9524ce308",
+      "upload_authorized": false
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 3873,
+      "sha256": "832a7689b6b5d74e58442363c5f7e788b92c35c7832e585b5ea5ba01758a2f2e",
+      "upload_authorized": false
+    }
+  ],
+  "withheld": [
+    "probe_v3.S"
+  ],
+  "all_uploads_require_specific_approval": true
+}

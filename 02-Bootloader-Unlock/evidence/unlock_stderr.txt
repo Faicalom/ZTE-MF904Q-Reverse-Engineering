@@ -1,0 +1,20 @@
+(bootloader) Start unlock flow
+
+(bootloader) V3:00000014:00000000
+(bootloader) V3:00000028:00000022
+(bootloader) V3:00000029:00000000
+(bootloader) V3:0000002a:00000001
+(bootloader) V3:0000002b:00000000
+(bootloader) V3:0000002c:41e2320b
+(bootloader) V3:0000002d:00000001
+(bootloader) V3:00000019:00000000
+(bootloader) V3:0000001a:00000000
+(bootloader) V3:00000016:00000000
+(bootloader) V3:00000017:00000000
+(bootloader) V3:0000001e:41e231ab
+(bootloader) V3:0000001f:00000000
+(bootloader) V3:0000001e:41e2323b
+(bootloader) V3:0000001f:00000000
+(bootloader) V3:00000015:00000000
+OKAY [139.430s]
+Finished. Total time: 139.430s

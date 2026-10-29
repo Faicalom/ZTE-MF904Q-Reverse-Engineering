@@ -1,0 +1,47 @@
+[
+  {
+    "platform": "GitHub",
+    "candidate_url": "https://github.com/login",
+    "draft_file": "GITHUB_REPOSITORY_DRAFT.json",
+    "status": "PENDING_LOGIN_AFTER_LOCAL_RIGHTS_GATE",
+    "safe_image": "04-Device-Photos/pcb_component_detail.jpg",
+    "github_links": "UNPUBLISHED_PLACEHOLDERS_TO_REPLACE_AFTER_APPROVED_REPO_CREATION",
+    "post_approved": false
+  },
+  {
+    "platform": "XDA",
+    "candidate_url": "https://xdaforums.com/f/android-software-hacking-general-developers-only.565/",
+    "draft_file": "XDA_FULL_PROJECT_THREAD_EN.md",
+    "status": "SECTION_AND_CURRENT_RULES_UNVERIFIED",
+    "safe_image": "04-Device-Photos/pcb_component_detail.jpg",
+    "github_links": "UNPUBLISHED_PLACEHOLDERS_TO_REPLACE_AFTER_APPROVED_REPO_CREATION",
+    "post_approved": false
+  },
+  {
+    "platform": "Reddit hardwarehacking",
+    "candidate_url": "https://www.reddit.com/r/hardwarehacking/",
+    "draft_file": "REDDIT_HARDWAREHACKING_EN.md",
+    "status": "CURRENT_RULES_AND_COMPOSER_UNVERIFIED",
+    "safe_image": "04-Device-Photos/pcb_component_detail.jpg",
+    "github_links": "UNPUBLISHED_PLACEHOLDERS_TO_REPLACE_AFTER_APPROVED_REPO_CREATION",
+    "post_approved": false
+  },
+  {
+    "platform": "Reddit ReverseEngineering",
+    "candidate_url": "https://www.reddit.com/r/ReverseEngineering/",
+    "draft_file": "REDDIT_REVERSEENGINEERING_EN.md",
+    "status": "CURRENT_LINK_POST_RULES_UNVERIFIED",
+    "safe_image": "04-Device-Photos/pcb_component_detail.jpg",
+    "github_links": "UNPUBLISHED_PLACEHOLDERS_TO_REPLACE_AFTER_APPROVED_REPO_CREATION",
+    "post_approved": false
+  },
+  {
+    "platform": "4PDA",
+    "candidate_url": "https://4pda.to/forum/index.php?showtopic=984941&st=5720",
+    "draft_file": "4PDA_PROJECT_PRESENTATION_EN.md",
+    "status": "TOPIC_DEVICE_MATCH_AND_LANGUAGE_UNVERIFIED",
+    "safe_image": "04-Device-Photos/pcb_component_detail.jpg",
+    "github_links": "UNPUBLISHED_PLACEHOLDERS_TO_REPLACE_AFTER_APPROVED_REPO_CREATION",
+    "post_approved": false
+  }
+]

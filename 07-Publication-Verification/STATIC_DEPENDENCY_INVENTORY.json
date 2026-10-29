@@ -1,0 +1,412 @@
+{
+  "method": "AST only; not a tested transitive live-runtime closure",
+  "sources": [
+    {
+      "source_reference": "01-Firmware-Extraction/src/MF904Q_STOCK_FIRMWARE_BACKUP/Tools/backup_core.py",
+      "stdlib": [
+        "hashlib",
+        "json",
+        "math",
+        "os",
+        "pathlib",
+        "struct",
+        "zlib"
+      ],
+      "external_or_project_modules": []
+    },
+    {
+      "source_reference": "01-Firmware-Extraction/src/MF904Q_STOCK_FIRMWARE_BACKUP/Tools/inspect_preloader.py",
+      "stdlib": [
+        "hashlib",
+        "json",
+        "pathlib",
+        "struct"
+      ],
+      "external_or_project_modules": []
+    },
+    {
+      "source_reference": "01-Firmware-Extraction/src/MF904Q_STOCK_FIRMWARE_BACKUP/Tools/open_private_archive.py",
+      "stdlib": [
+        "argparse",
+        "ctypes",
+        "datetime",
+        "pathlib",
+        "sys"
+      ],
+      "external_or_project_modules": [
+        "private_crypto"
+      ]
+    },
+    {
+      "source_reference": "01-Firmware-Extraction/src/MF904Q_STOCK_FIRMWARE_BACKUP/Tools/private_crypto.py",
+      "stdlib": [
+        "ctypes",
+        "getpass",
+        "hashlib",
+        "msvcrt",
+        "os",
+        "pathlib",
+        "struct",
+        "sys",
+        "uuid",
+        "zipfile"
+      ],
+      "external_or_project_modules": [
+        "cryptography"
+      ]
+    },
+    {
+      "source_reference": "01-Firmware-Extraction/src/MF904Q_STOCK_FIRMWARE_BACKUP/Tools/run_stock_backup.py",
+      "stdlib": [
+        "argparse",
+        "datetime",
+        "hashlib",
+        "json",
+        "os",
+        "pathlib",
+        "shutil",
+        "sys",
+        "time"
+      ],
+      "external_or_project_modules": [
+        "backup_core",
+        "private_crypto",
+        "run_da2_probe",
+        "verify_backup",
+        "wait_preloader"
+      ]
+    },
+    {
+      "source_reference": "01-Firmware-Extraction/src/MF904Q_STOCK_FIRMWARE_BACKUP/Tools/verify_backup.py",
+      "stdlib": [
+        "hashlib",
+        "json",
+        "pathlib",
+        "struct",
+        "zlib"
+      ],
+      "external_or_project_modules": []
+    },
+    {
+      "source_reference": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/audit_legacy_candidates.py",
+      "stdlib": [
+        "hashlib",
+        "json",
+        "pathlib",
+        "struct"
+      ],
+      "external_or_project_modules": []
+    },
+    {
+      "source_reference": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/da1_probe_protocol.py",
+      "stdlib": [
+        "struct",
+        "time"
+      ],
+      "external_or_project_modules": []
+    },
+    {
+      "source_reference": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/da2_probe/da2_protocol.py",
+      "stdlib": [
+        "struct",
+        "time",
+        "zlib"
+      ],
+      "external_or_project_modules": []
+    },
+    {
+      "source_reference": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/da2_probe/run_da2_probe.py",
+      "stdlib": [
+        "datetime",
+        "hashlib",
+        "json",
+        "pathlib",
+        "shutil",
+        "sys",
+        "time"
+      ],
+      "external_or_project_modules": [
+        "da2_protocol",
+        "run_stage2_requirements",
+        "wait_preloader"
+      ]
+    },
+    {
+      "source_reference": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/identity_queries.py",
+      "stdlib": [
+        "struct"
+      ],
+      "external_or_project_modules": []
+    },
+    {
+      "source_reference": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/protocol.py",
+      "stdlib": [],
+      "external_or_project_modules": []
+    },
+    {
+      "source_reference": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/readiness_protocol.py",
+      "stdlib": [],
+      "external_or_project_modules": [
+        "protocol"
+      ]
+    },
+    {
+      "source_reference": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/run_da1_probe.py",
+      "stdlib": [
+        "datetime",
+        "hashlib",
+        "json",
+        "pathlib",
+        "struct",
+        "time"
+      ],
+      "external_or_project_modules": [
+        "audit_legacy_candidates",
+        "da1_probe_protocol",
+        "wait_preloader"
+      ]
+    },
+    {
+      "source_reference": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/stage2_probe/run_stage2_requirements.py",
+      "stdlib": [
+        "datetime",
+        "hashlib",
+        "json",
+        "pathlib",
+        "sys",
+        "time"
+      ],
+      "external_or_project_modules": [
+        "run_da1_probe",
+        "stage2_protocol",
+        "wait_preloader"
+      ]
+    },
+    {
+      "source_reference": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/stage2_probe/stage2_protocol.py",
+      "stdlib": [
+        "struct",
+        "time"
+      ],
+      "external_or_project_modules": []
+    },
+    {
+      "source_reference": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/wait_preloader.py",
+      "stdlib": [
+        "argparse",
+        "ctypes",
+        "datetime",
+        "hashlib",
+        "json",
+        "pathlib",
+        "queue",
+        "struct",
+        "sys",
+        "threading",
+        "time",
+        "uuid"
+      ],
+      "external_or_project_modules": [
+        "identity_queries",
+        "protocol",
+        "readiness_protocol",
+        "serial",
+        "windows_usb"
+      ]
+    },
+    {
+      "source_reference": "01-Firmware-Extraction/src/MF904Q_Wait_Modem/windows_usb.py",
+      "stdlib": [
+        "ctypes"
+      ],
+      "external_or_project_modules": []
+    },
+    {
+      "source_reference": "02-Bootloader-Unlock/src/MF904Q_DA_HANDSHAKE_FIX_20261012/limited_da.py",
+      "stdlib": [
+        "datetime",
+        "hashlib",
+        "json",
+        "os",
+        "pathlib",
+        "re",
+        "shutil",
+        "struct",
+        "subprocess",
+        "sys",
+        "time"
+      ],
+      "external_or_project_modules": [
+        "backup_core",
+        "compare_private",
+        "da1_probe_protocol",
+        "da2_protocol",
+        "identity_queries",
+        "policy",
+        "readiness_protocol",
+        "serial",
+        "stage2_protocol",
+        "usb_metadata"
+      ]
+    },
+    {
+      "source_reference": "02-Bootloader-Unlock/src/MF904Q_GATE_CONTEXT_PREP_20261012/build_v3.py",
+      "stdlib": [
+        "hashlib",
+        "json",
+        "pathlib",
+        "struct",
+        "subprocess"
+      ],
+      "external_or_project_modules": []
+    },
+    {
+      "source_reference": "02-Bootloader-Unlock/src/MF904Q_GATE_CONTEXT_PREP_20261012/capture.py",
+      "stdlib": [
+        "datetime",
+        "json",
+        "os",
+        "pathlib",
+        "threading",
+        "time"
+      ],
+      "external_or_project_modules": []
+    },
+    {
+      "source_reference": "02-Bootloader-Unlock/src/MF904Q_GATE_CONTEXT_PREP_20261012/final_unlock_v3.py",
+      "stdlib": [
+        "datetime",
+        "hashlib",
+        "json",
+        "os",
+        "pathlib",
+        "re",
+        "subprocess",
+        "sys",
+        "threading",
+        "time"
+      ],
+      "external_or_project_modules": [
+        "capture",
+        "entry",
+        "lk_install_policy",
+        "response_gate_context",
+        "usb_metadata"
+      ]
+    },
+    {
+      "source_reference": "02-Bootloader-Unlock/src/MF904Q_GATE_CONTEXT_PREP_20261012/lk_da_session.py",
+      "stdlib": [
+        "datetime",
+        "hashlib",
+        "json",
+        "os",
+        "pathlib",
+        "struct",
+        "subprocess",
+        "sys",
+        "time"
+      ],
+      "external_or_project_modules": [
+        "limited_da",
+        "lk_install_policy",
+        "serial",
+        "usb_metadata"
+      ]
+    },
+    {
+      "source_reference": "02-Bootloader-Unlock/src/MF904Q_GATE_CONTEXT_PREP_20261012/lk_install_policy.py",
+      "stdlib": [
+        "ctypes",
+        "hashlib",
+        "json",
+        "os",
+        "pathlib",
+        "struct"
+      ],
+      "external_or_project_modules": []
+    },
+    {
+      "source_reference": "02-Bootloader-Unlock/src/MF904Q_GATE_CONTEXT_PREP_20261012/lk_probe_entry.py",
+      "stdlib": [
+        "datetime",
+        "hashlib",
+        "json",
+        "os",
+        "pathlib",
+        "re",
+        "subprocess",
+        "sys",
+        "threading",
+        "time"
+      ],
+      "external_or_project_modules": [
+        "entry",
+        "response_gate_context",
+        "serial",
+        "usb_metadata"
+      ]
+    },
+    {
+      "source_reference": "02-Bootloader-Unlock/src/MF904Q_GATE_CONTEXT_PREP_20261012/response_gate_context.py",
+      "stdlib": [
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "external_or_project_modules": []
+    },
+    {
+      "source_reference": "02-Bootloader-Unlock/src/MF904Q_GATE_CONTEXT_PREP_20261012/response_v3.py",
+      "stdlib": [
+        "json",
+        "pathlib",
+        "re"
+      ],
+      "external_or_project_modules": []
+    },
+    {
+      "source_reference": "02-Bootloader-Unlock/src/MF904Q_THIRD_UNLOCK_PREP_20261012/core.py",
+      "stdlib": [
+        "hashlib",
+        "json",
+        "os",
+        "pathlib",
+        "re"
+      ],
+      "external_or_project_modules": []
+    },
+    {
+      "source_reference": "02-Bootloader-Unlock/src/MF904Q_THIRD_UNLOCK_PREP_20261012/entry.py",
+      "stdlib": [
+        "argparse",
+        "datetime",
+        "hashlib",
+        "json",
+        "os",
+        "pathlib",
+        "subprocess",
+        "time"
+      ],
+      "external_or_project_modules": [
+        "core",
+        "entry_protocol",
+        "serial",
+        "usb_metadata"
+      ]
+    },
+    {
+      "source_reference": "02-Bootloader-Unlock/src/MF904Q_THIRD_UNLOCK_PREP_20261012/entry_protocol.py",
+      "stdlib": [],
+      "external_or_project_modules": []
+    },
+    {
+      "source_reference": "02-Bootloader-Unlock/src/MF904Q_THIRD_UNLOCK_PREP_20261012/usb_metadata.py",
+      "stdlib": [
+        "ctypes",
+        "re"
+      ],
+      "external_or_project_modules": []
+    }
+  ]
+}

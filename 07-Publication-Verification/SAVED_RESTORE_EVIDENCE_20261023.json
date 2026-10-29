@@ -1,0 +1,22 @@
+[
+  {
+    "session": "LIVE_afcfa4e1e3f84dc39ae4c68115cc98e2",
+    "time": "2026-10-19T05:37:57.365584+00:00",
+    "system_sha256": "1e7e386cef9ae14e0e2f62885fe9bbc34dbf15257d1611947a9a99a0adcb15b7",
+    "readback_sha256": "1e7e386cef9ae14e0e2f62885fe9bbc34dbf15257d1611947a9a99a0adcb15b7",
+    "bytes": 629145600,
+    "byte_match": true,
+    "saved_session_file_sha256": "f7968faa88c56f11d56d4b1d9028d1fb32fff6f1496828ef80a2afb343dc46d1",
+    "classification": "B_CONTROL"
+  },
+  {
+    "session": "LIVE_f917282f473a4e27800e67090762e869",
+    "time": "2026-10-23T05:56:33.369942+00:00",
+    "system_sha256": "9bb23ccc2a0347f0a506ed3a0d2a6784593e8f0a4d4f1d01d79f2d68d56cbe80",
+    "readback_sha256": "9bb23ccc2a0347f0a506ed3a0d2a6784593e8f0a4d4f1d01d79f2d68d56cbe80",
+    "bytes": 629145600,
+    "byte_match": true,
+    "saved_session_file_sha256": "1b8927a89150f3c698f1a27a88c56bd66327391de4cb4dff56da87bb0fa45b7e",
+    "classification": "FACTORY_SYSTEM_DISTINCT_FROM_B"
+  }
+]

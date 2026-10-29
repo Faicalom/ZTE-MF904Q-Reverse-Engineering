@@ -1,0 +1,18 @@
+{
+  "unlock": {
+    "rc": 0,
+    "eof": true,
+    "errors": []
+  },
+  "after": {
+    "rc": 0,
+    "eof": true,
+    "errors": []
+  },
+  "factory_query": {
+    "status": "UNLOCKED_YES",
+    "exit_code": 0,
+    "unlocked": "yes"
+  },
+  "factory_query_complete_per_final_report": true
+}

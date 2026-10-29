@@ -1,0 +1,3 @@
+This release does not invent missing evidence screenshots. The reviewed real photo is [PCB detail](../../04-Device-Photos/pcb_component_detail.jpg). It does not demonstrate the result of this tool. See the selected textual evidence in ../evidence/.
+
+> Source review25October2026:50 reviewed historical source/build files are now included under per-file terms;24 GPL-scoped components retain upstream notices,26 independent/factual files have no new blanket license. probe_v3.S is withheld. Vendor binaries and private inputs are absent; no runnable live-tool or full LK rebuild claim. See repository-root LICENSE_REVIEW.md.

@@ -1,0 +1,158 @@
+{
+  "candidate_sha256": "f566f0a28297f9459978a41b61c7b3ce254f5ad0e3cc4ec71fa37e094bbe8077",
+  "original_sha256": "07ba5f67df9ff0edfcae92ff0b49d874532b1f3cb6083d526f515603338ba596",
+  "bytes": 524288,
+  "changed_bytes": 508,
+  "patches": [
+    {
+      "name": "diag",
+      "start": 115676,
+      "length": 272,
+      "new_sha256": "1dc3fd66b3b08f0f78714f286274e75024d3ea1f3bfa49d1d0ff062b6c7bccca"
+    },
+    {
+      "name": "body",
+      "start": 116308,
+      "length": 220,
+      "new_sha256": "b8b09bd02288f69cb91162339b0324d3265a1ea1d9836e8f23ae40b31bbf64c4"
+    },
+    {
+      "name": "hook_erase",
+      "start": 116050,
+      "length": 4,
+      "new_sha256": "9276bec6be83eca618b5501edce8a2b5e87af85b78117c1eaeb365d877caa3e0"
+    },
+    {
+      "name": "hook_crypto1",
+      "start": 144250,
+      "length": 4,
+      "new_sha256": "c3bdd1d0e6fc5f2b9d0b045ed61c9243d833217d4666a084b82260970a4afe79"
+    },
+    {
+      "name": "hook_write1",
+      "start": 144294,
+      "length": 4,
+      "new_sha256": "d60064ce38976af2887a9227bcf1b98aaaa34f0e3128536c49a49737358ee41d"
+    },
+    {
+      "name": "hook_crypto2",
+      "start": 144346,
+      "length": 4,
+      "new_sha256": "401bcf15d39c218425c6287bd74aea246e7d756535ee45be6d7037b363073836"
+    },
+    {
+      "name": "hook_config",
+      "start": 140690,
+      "length": 4,
+      "new_sha256": "a56bd70bea2a73856f652729f90dcad76e09ef8e0dfcba9f2b0576e7ad8f748c"
+    },
+    {
+      "name": "hook_raw",
+      "start": 168492,
+      "length": 4,
+      "new_sha256": "4d90ebd03aff606239e140919289e0bd399631f1c97c43a138f38b7d7edb5561"
+    },
+    {
+      "name": "hook_gate",
+      "start": 144390,
+      "length": 4,
+      "new_sha256": "916b97bc9aa3ab9314f6046ce2fac48ec68b3349a9d8d5cfe04c49d65fa660f0"
+    },
+    {
+      "name": "hook_constructor",
+      "start": 144398,
+      "length": 4,
+      "new_sha256": "bd617c35f9efd356761f3dda6c9042bc506e7736fcc3e986335c9339ca53e5bd"
+    },
+    {
+      "name": "hook_write2",
+      "start": 144438,
+      "length": 4,
+      "new_sha256": "9c8e30e0ef91cabe75099f8db1fa20517e5423abcb5a066ed82d0895b3efaa15"
+    },
+    {
+      "name": "UART_BPL_RETURN",
+      "start": 7184,
+      "length": 2,
+      "new_sha256": "b1e33f5b0ef61cf3d3b1ffc1760bf0c92cf3666df33425ce677c0ebaf294de23"
+    },
+    {
+      "name": "SAVE_WRITE_R0_TO_R5_AND_SET_Z",
+      "start": 144298,
+      "length": 2,
+      "new_sha256": "2921a11f25dadaa24aa79a548e4e81508c2e5e56af2d833d65e2bcce448ce2f5"
+    },
+    {
+      "name": "SAVE_WRITE_R0_TO_R5_AND_SET_Z",
+      "start": 144442,
+      "length": 2,
+      "new_sha256": "2921a11f25dadaa24aa79a548e4e81508c2e5e56af2d833d65e2bcce448ce2f5"
+    },
+    {
+      "name": "DISABLE_REPURPOSED_CALLBACK",
+      "start": 296364,
+      "length": 4,
+      "new_sha256": "d8fe4d49741ef76922f4ec37be50e1f5968426c783b3d09ffbf513d6d177fcac"
+    },
+    {
+      "name": "DISABLE_REPURPOSED_CALLBACK",
+      "start": 296824,
+      "length": 4,
+      "new_sha256": "d8fe4d49741ef76922f4ec37be50e1f5968426c783b3d09ffbf513d6d177fcac"
+    },
+    {
+      "name": "DISABLE_REPURPOSED_CALLBACK",
+      "start": 296540,
+      "length": 4,
+      "new_sha256": "d8fe4d49741ef76922f4ec37be50e1f5968426c783b3d09ffbf513d6d177fcac"
+    }
+  ],
+  "symbols": {
+    "original_info": 105709,
+    "original_fail": 105781,
+    "original_okay": 106173,
+    "probe_v3": 115676,
+    "emit": 115696,
+    "fmt": 115728,
+    "isolated_constructor": 115744,
+    "buffer_slot": 115768,
+    "entry_done": 115772,
+    "empty": 115780,
+    "deny_legacy": 115782,
+    "erase_progress": 115790,
+    "write_progress": 115818,
+    "crypto_progress": 115854,
+    "capture_config": 115888,
+    "config_done": 115902,
+    "capture_raw": 115908,
+    "raw_done": 115934,
+    "support_pointer": 115944,
+    "original_erase_commit": 115953,
+    "diagnostic_body": 116308,
+    "cleanup": 116378,
+    "no_memory": 116394,
+    "magic0": 116404,
+    "gate_progress": 116408,
+    "context_pointer": 116492,
+    "gate_context": 116496,
+    "constructor_progress": 116500,
+    "original_snprintf": 123293,
+    "lk_malloc": 123369,
+    "lk_free": 123421,
+    "original_gate": 140685,
+    "config_resume": 140695,
+    "original_constructor": 143057,
+    "original_write": 143445,
+    "original_encrypt": 143573
+  },
+  "live_validated": false,
+  "unlock_requires_separate_final_confirmation": true,
+  "probe_call_sites": [
+    1105314277,
+    1105314945,
+    1105314971
+  ],
+  "unlock_call_site": 1105342987,
+  "changed_bytes_from_current_v3": 500,
+  "publication_note": "Original-byte excerpts removed; live_validated is a historical build-time flag, see later success evidence."
+}

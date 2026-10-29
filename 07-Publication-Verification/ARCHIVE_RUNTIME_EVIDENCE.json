@@ -1,0 +1,8 @@
+{
+  "status": "OFFLINE_RUNTIME_AND_DA_HASHES_PASS",
+  "python": "3.13.14",
+  "pyserial_version": "3.5",
+  "da1_sha256": "16160bfd628e56943dccc6982da92a30187ff1bec25ad144341268df63ca0f13",
+  "da2_sha256": "4c71c41280414374ef704655dee944a430a701f879489b87188a2e1fc70b0e57",
+  "live_device_test_performed": false
+}

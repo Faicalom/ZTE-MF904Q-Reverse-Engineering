@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "verified_files": 31,
+  "failures": [],
+  "firmware_partitions_complete": 7,
+  "private_partitions_complete": 16,
+  "gpt_primary_and_backup_valid": true,
+  "gpt_entries_identical": true,
+  "boot1_boot2_identical": false,
+  "full_user_present": true
+}

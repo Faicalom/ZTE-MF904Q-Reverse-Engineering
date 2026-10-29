@@ -1,0 +1,19 @@
+# MF904Q / M19-E: verified firmware backup and persistent LK unlock research
+
+I am sharing a research record for an MF904Q/M19-E modem, board WF904_V6.0, Android6/API23. I have not established that this is the same device as the one discussed in this topic; the model/build and runtime similarities should be checked before treating any addresses or tools as compatible.
+
+The Windows stock-DA pipeline extracted23 GPT partitions, Boot1/Boot2 and the complete User area, with independent size/hash/GPT verification and partition-to-User comparison. The bootloader work was separate: an exact-build LK derivative retained the original unlock path and measured its real gate inputs. After a successful original-flow unlock, a separate query returned unlocked=yes. Factory LK was restored with full readback and again returned yes after a new entry. Android and mobile Internet were subsequently demonstrated.
+
+Temporary Arabic WebUI and LCD resources also displayed correctly. Permanent modified system images nevertheless powered off after boot. Source TLR.db, runtime ROOT.war and Jetty/Jar cache must be distinguished when comparing variants. A fully readback-verified WEB_ONLY system still powered off with the factory TeleService APK, but this does not prove the WebUI file alone caused it. No final trace established panic, watchdog, a causal Phone crash, explicit shutdown or voltage collapse.
+
+I would appreciate technically relevant pointers from people familiar with similar Android modem WebUI preparation, especially evidence about runtime ROOT.war replacement/cache handling and retained shutdown diagnostics. The repository contains detailed procedures, source-referenced documentation (reviewed historical source with per-file terms), selected evidence and failed experiments, but excludes firmware, DA binaries, identities and raw private logs. It is a research release, not a universal flashing package.
+
+Repository placeholder: `https://github.com/YOUR_GITHUB_USERNAME/ZTE-MF904Q-Reverse-Engineering`. Candidate topic supplied for review: `https://4pda.to/forum/index.php?showtopic=984941&st=5720`. That page returned403 in our check; topic/device fit and current language/posting rules are UNVERIFIED. This draft should not be posted there without that check. A Russian version is prepared separately, but its presence is not a claim about a mandatory language rule.
+
+
+Current status correction23October2026: The saved19October2026 session confirms a complete B system restore and matching629145600-byte readback (SHA2561e7e386cef9ae14e0e2f62885fe9bbc34dbf15257d1611947a9a99a0adcb15b7). A later23October session confirms a complete restore of the distinct factory system (SHA2569bb23ccc2a0347f0a506ed3a0d2a6784593e8f0a4d4f1d01d79f2d68d56cbe80). The owner clarified on23October that the later factory restoration was prompted by slow Internet, which they subsequently attributed to their Ooredoo connection rather than the modem. This is an owner observation about that slowdown, not a demonstrated cause of the separate Arabic-system power-off. Last saved system image is factory9bb23…, not B; no live device query was made for this publication review.
+
+Release boundary25October2026:50 reviewed tool-source files are included with per-file terms and upstream notices; one assembly source remains withheld. No vendor binary, full LK rebuild or portable executable is claimed. General reuse terms for independent code are not yet selected.
+
+
+Source-review update25October2026: the prior blanket source hold is superseded.50 files are included with scoped attribution/license records, probe_v3.S is withheld, no blanket repository license is chosen, and no vendor firmware/executable or full LK-build claim is made. Posting remains subject to current forum rules and the owner's explicit final approval.

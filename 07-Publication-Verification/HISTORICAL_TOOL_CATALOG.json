@@ -1,0 +1,114 @@
+[
+  {
+    "name": "stock logo",
+    "historical_live_result": "STOCK_LOGO_WRITE_READBACK_BOOT_PASS",
+    "session": "20261009",
+    "operation": "WRITE logo only",
+    "power_state": "Powered off \u2192 Preloader",
+    "portability": "Offline portable package guarded; no fresh live validation"
+  },
+  {
+    "name": "stock system",
+    "historical_live_result": "STOCK_SYSTEM_REFLASH_BOOT_PASS",
+    "session": "20261009",
+    "operation": "WRITE system 629145600 bytes + readback",
+    "power_state": "Powered off \u2192 Preloader",
+    "portability": "Offline portable package guarded; no fresh live validation"
+  },
+  {
+    "name": "ADB detached original broadcast",
+    "historical_live_result": "AM_END_END_RC0_ADB_STABLE_120_SECONDS",
+    "session": "20261011",
+    "operation": "USB configuration change; not OEM graphical UI",
+    "power_state": "Android normally booted",
+    "portability": "Exact executable OFFLINE --review validated; live embedded C root NOT relocated"
+  },
+  {
+    "name": "ADB detached result reader",
+    "historical_live_result": "ROOT_ANDROID6_SELINUX_DISABLED",
+    "session": "20261011",
+    "operation": "ADB READ saved files and identity",
+    "power_state": "Android with ADB device",
+    "portability": "Exact executable OFFLINE --review only; live embedded C root remains"
+  },
+  {
+    "name": "OEM setter6 and getter7",
+    "historical_live_result": "GETTER_TRUE_PROPERTY1_AFTER_SETTER6",
+    "session": "20261011_142454_000",
+    "operation": "DANGEROUS FRP WRITE setter6; getter7 read may have service side effects",
+    "power_state": "Android root",
+    "portability": "Original and source archived; DO NOT repeat on current unlocked unit"
+  },
+  {
+    "name": "Fastboot entry original",
+    "historical_live_result": "FASTBOOT_ENTRY_ACK_AND_FIVE_QUERIES_RC0",
+    "session": "20261010",
+    "operation": "Preloader FASTBOOT \u2192 TOOBTSAF; not generic adb reboot",
+    "power_state": "Powered off; USB once only when monitor ready",
+    "portability": "Full exact dependencies in encrypted project snapshot; live portability NOT asserted"
+  },
+  {
+    "name": "Final successful unlock",
+    "historical_live_result": "UNLOCKED_YES_RC0_RESPONSE_COMPLETE",
+    "session": "20261013_054500_515782",
+    "operation": "DANGEROUS userdata erase and seccfg write via native LK",
+    "power_state": "Fastboot; independent command/WPS approvals",
+    "portability": "Archive only; not for repeat operation"
+  },
+  {
+    "name": "Stock LK restore",
+    "historical_live_result": "ORIGINAL_LK_FULL_READBACK_IDENTICAL",
+    "session": "20261013_061448_584934",
+    "operation": "DANGEROUS LK-only WRITE 524288 bytes",
+    "power_state": "Powered off \u2192 DA originals",
+    "portability": "Source/dependencies/evidence archived; Python absolute path guards NOT silently bypassed"
+  },
+  {
+    "name": "Stock unlocked persistence",
+    "historical_live_result": "ORIGINAL_LK_UNLOCKED_YES_RC0",
+    "session": "20261013_061849_771941",
+    "operation": "Native Fastboot getvar unlocked one read",
+    "power_state": "Fresh coordinated Preloader\u2192Fastboot",
+    "portability": "Original exact reader and proof inside encrypted snapshot"
+  },
+  {
+    "name": "seccfg read after unlock",
+    "historical_live_result": "HEADER_V3_SHA_C5CD_524288_BYTES",
+    "session": "20261013_060141_447717",
+    "operation": "GPT17408 + seccfg524288 READ only",
+    "power_state": "Powered off \u2192 DA originals",
+    "portability": "Raw security data encrypted; no encrypted offsets interpreted"
+  },
+  {
+    "name": "FRP/GPT limited read",
+    "historical_live_result": "FRP_CHECKSUM_VALID_OEM_TRUE_SECCFG_ZERO_BEFORE_UNLOCK",
+    "session": "20261012",
+    "operation": "Three bounded reads; DA originals loaded to RAM",
+    "power_state": "Powered off; corrected A0 conditional second synchronization",
+    "portability": "Live-passed original archived; exact runtime/identity bindings preserved"
+  },
+  {
+    "name": "eFuse read",
+    "historical_live_result": "READ_REG32_7A_DWORD_ZERO_BIT1_ZERO",
+    "session": "20261012_084758",
+    "operation": "DA2 READ_REG32 10206060 once",
+    "power_state": "Powered off \u2192 DA originals",
+    "portability": "No MMIO write; does not read live ROM_INFO"
+  },
+  {
+    "name": "WPS/KPD1 Preloader",
+    "historical_live_result": "FFFF_FBFD_FFFF_BIT1_1_0_1",
+    "session": "20261012_095822_072322",
+    "operation": "D0/D1 read; one separately approved WPS press",
+    "power_state": "Preloader only",
+    "portability": "Not proof of LK keypad by itself; no repeat required"
+  },
+  {
+    "name": "V1/V2/old V3",
+    "historical_live_result": "HISTORICAL_DIAGNOSTICS_NOT_FINAL_UNLOCK_WINNER",
+    "session": "20261012",
+    "operation": "Historical firmware WRITE risk",
+    "power_state": "Not to run now",
+    "portability": "Only f566... is winning unlock image; original stock currently installed"
+  }
+]
