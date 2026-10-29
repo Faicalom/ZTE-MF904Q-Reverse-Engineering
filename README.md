@@ -20,4 +20,5 @@ No blanket repository license is imposed. Independent code has no newly selected
 
 The full extraction guide,13-stage unlock guide, prerequisite chapter, failed experiments and original-LK persistence evidence remain intact. The latest saved factory-system restore and the owner's Ooredoo slowdown clarification are documented separately from the unresolved Arabic-system shutdown.
 
-Repository URL placeholder: `https://github.com/YOUR_GITHUB_USERNAME/ZTE-MF904Q-Reverse-Engineering` (not published). Repository creation, upload, Public visibility, every Release and every community post require distinct explicit approvals. Login completion is not publication approval.
+Published repository: `https://github.com/Faicalom/ZTE-MF904Q-Reverse-Engineering`. The reviewed source release is public; Releases and community posts remain separate actions.
+
